@@ -1,0 +1,87 @@
+#!/usr/bin/env python
+
+import time
+arr={}
+arr2={}
+
+
+arr[0] = "                   _______________________________________________________"
+arr[1] = "                  |                                                      |"
+arr[2] = "             /    |                                                      |"
+arr[3] = "            /---, |                                                      |"
+arr[4] = "       -----# ==| |                                                      |"
+arr[5] = "       | :) # ==| |                                                      |"
+arr[6] = "  -----'----#   | |______________________________________________________|"
+arr[7] = "  |)___()  '#   |______====____   \___________________________________|"
+arr[8] = " [_/,-,\\\"--\"------ //,-,  ,-,\\\\\\   |/             //,-,  ,-,  ,-,\\\\ __#"
+arr[9] = "   ( 0 )|===******||( 0 )( 0 )||-  o              '( 0 )( 0 )( 0 )||"
+arr[10] ="----'-'--------------'-'--'-'-----------------------'-'--'-'--'-'--------------"
+ 
+arr2[0] = "        "
+arr2[1] = "        "
+arr2[2] = "        "
+arr2[3] = "        "
+arr2[4] = "        "
+arr2[5] = "        "
+arr2[6] = "     (yo)"
+arr2[7] = "      o "
+arr2[8] = "     / \\"
+arr2[9] = "      | "
+arr2[10] = "-----/-\\"
+
+dist = "                 "
+for j in range(20):
+	print ""
+	print ""
+	print ""
+	print ""
+	print ""
+	print ""
+	print ""
+	print ""
+	print ""
+	print ""
+	print ""
+	print ""
+	print ""
+	print ""
+	print ""
+	print ""
+	print ""
+	print ""
+	print ""
+	for i in arr:
+		print arr2[i]+dist[j:len(dist)]+arr[i]
+	time.sleep(0.05)
+
+ 	
+print ""
+print ""
+print ""
+print ""
+print ""
+print ""
+print ""
+print ""
+print ""
+print ""
+print ""
+print ""
+print ""
+print ""
+print """                 _____
+                /     \\
+               | () () |
+                \\  ^  /
+                 |||||
+                 |||||"""
+print ""
+print ""
+print ""
+print ""
+print ""
+print ""
+print ""
+print ""
+print ""
+print ""
