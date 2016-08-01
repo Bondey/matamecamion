@@ -1,1 +1,1 @@
-Just place this somere in your $PATH and call him when you need it :_)
+Just place this somewere in your $PATH and call him when you need it :_)
