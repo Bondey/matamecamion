@@ -1,0 +1,1 @@
+Just place this somere in your $PATH and call him when you need it :_)
